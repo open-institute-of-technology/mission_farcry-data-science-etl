@@ -48,6 +48,8 @@ _Note: AG36 Assault Rifle and OICW Advanced Assault Rifle weapons have two fire 
 
 The Far Cry server stores [log information in a text file](logs/log00.txt), starting with engine and system initialization data, followed by all the frags that occurred in every match sessions.
 
+_Note: You need to modify the parameter `log_FileVerbosity` with the value `3` in your Far Cry configuration file `system.cfg`._
+
 For example:
 
 ```bash
